@@ -17,7 +17,6 @@ var occupiedTiles=new Array();
 var barcosTotalJ1=paterasJugador1+destructorJugador1;
 var barcosTotalJ2=paterasJugador2+destructorJugador2;
 function previewTableJ1(){
-	document.write("1  2  3  4  5  6  7  8  9  10\n");
 	$fullTable="<table border='1'>\n"
 	for ($i=0;$i<10;$i++){
 			$fullTable=$fullTable+"<tr>\n"
@@ -29,7 +28,6 @@ function previewTableJ1(){
 		document.write($fullTable);
 }
 function previewTableJ2(){
-	document.write("1  2  3  4  5  6  7  8  9  10\n");
 	$fullTable="<table border='1'>\n"
 	for ($i=0;$i<10;$i++){
 			$fullTable=$fullTable+"<tr>\n"
