@@ -1,32 +1,36 @@
 class patera{
 	constructor(){
-		this.health=true
+		this.health= new Array();
+		this.health[0]=1;
 		this.pos=new Array();
 	}
 }
 class destructor{
 	constructor(){
-		this.health=true
-		this.health2=true
+		this.health= new Array();
+		for(var i=0; i<2; i++) {
+    		this.health[i]= 1;
+		}
 		this.pos=new Array();
 		this.dir="";
 	}
 }
 class acorazado{
 	constructor(){
-		this.health=true
-		this.health2=true
-		this.health3=true
+		this.health= new Array();
+		for(var i=0; i<3; i++) {
+    		this.health[i]= 1;
+		}
 		this.pos=new Array();
 		this.dir="";
 	}
 }
 class portaaviones{
 	constructor(){
-		this.health=true
-		this.health2=true
-		this.health3=true
-		this.health4=true
+		this.health= new Array();
+		for(var i=0; i<4; i++) {
+    		this.health[i]= 1;
+		}
 		this.pos=new Array();
 		this.dir="";
 	}
