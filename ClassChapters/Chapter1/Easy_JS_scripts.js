@@ -1,4 +1,4 @@
-essage="Esto es un mensaje aabbcc";
+message="Esto es un mensaje aabbcc";
 message2="Esto es un segundo mensaje aabbcc";
 alert(message+" "+message2);
 document.write("a");
