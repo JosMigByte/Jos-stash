@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
+
+<style>
+.form{border-style: dashed;}
+</style>
 <body>
-
-<form action="upload2.php" method="post" enctype="multipart/form-data">
-    Select file to upload:
-    <input type="file" name="fileToUpload" id="fileToUpload">
-    <input type="submit" value="Upload Image" name="submit">
+<div class="form">
+<form action="sesion.php" method="post" enctype="multipart/form-data">
+	Tu nombre: <input type="text" name="nombre" required><br>
+	<?php
+		sesion_id("nombre");
+		session_start();
+		$_SESSION["nombre"] = "nombre";
+	?>
+    <input type="submit" value="Upload" name="submit">
 </form>
-
+</div>
 </body>
 </html>
